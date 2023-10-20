@@ -1,0 +1,59 @@
+/* Общий стиль для всего приложения */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+#editor {
+  min-height: 200px;
+  margin-bottom: -5px;
+  outline: none;
+  resize: vertical;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  width: 60vw;
+  margin: 10 auto;
+}
+
+#editor,
+#preview {
+
+  max-width: 800px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#preview table {
+  border-collapse: collapse;
+}
+
+#preview img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+#preview {
+  border: 1px solid #ddd;
+}
